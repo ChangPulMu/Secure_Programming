@@ -1,9 +1,8 @@
-#include <stdio.h>
-#include "Cfile.h"
+#include "module.h"
+void sample_func();
 
-int main(void)
+int main()
 {
-	printf("\n SSU Software Stuff\n");
-	ssu();
+	sample_func();
 	return 0;
 }
